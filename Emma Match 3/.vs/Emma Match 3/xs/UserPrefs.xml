@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{0D6AE949-8DDF-02E6-FA9A-58F685993BBF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NodePiece.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Match3.cs" Line="268" Column="1" />
+      <File FileName="Assets/Scripts/KilledPiece.cs" Line="41" Column="23" />
+      <File FileName="Assets/Scripts/NodePiece.cs" Line="66" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Emma Match 3" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="NodePiece.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f8cc86b6-52aa-4a9f-b270-2cd071e9f493" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
