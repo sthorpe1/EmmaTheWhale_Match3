@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
+  m_BackGroundColor: {r: 0.31706125, g: 0.5771102, b: 0.8962264, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -560,9 +560,7 @@ MonoBehaviour:
   - {fileID: -488248382649040768, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
   - {fileID: 5528609633622603068, guid: 2c97df9695607b04c92ec362851a0890, type: 3}
   gameBoard: {fileID: 1258854797}
-  killedBoard: {fileID: 845422748}
   nodePiece: {fileID: 5041285319813477180, guid: 6b8d183d2a01e8547aba3aa6119324a7, type: 3}
-  killedPiece: {fileID: 7033978358347474412, guid: 823b054b7f21f4c03a7aef8c23a2180c, type: 3}
 --- !u!114 &1907339364
 MonoBehaviour:
   m_ObjectHideFlags: 0
