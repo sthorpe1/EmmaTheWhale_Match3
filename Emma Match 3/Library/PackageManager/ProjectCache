@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714725340017360
-    m_Hash: 1407836200
+      ticks: 637793671569040657
+    m_Hash: 3533921098
   m_LockFileStatus:
     m_FilePath: C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match
       3/Packages/packages-lock.json
@@ -15,20 +15,20 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714725489044344
-    m_Hash: 1628627717
+      ticks: 637793672034318041
+    m_Hash: 2154246561
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.8
+    - packageId: com.unity.2d.animation@5.0.10
       testable: 0
       isDirectDependency: 1
-      version: 5.0.8
+      version: 5.0.10
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.2d.animation@5.0.8
+        Match 3\Library\PackageCache\com.unity.2d.animation@5.0.10
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -124,13 +124,12 @@ m_PackageAssets:
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         compatible:
-        - 5.0.8
-        - 5.0.9
         - 5.0.10
+        - 5.1.0
         verified: 5.0.10
       dependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.sprite
@@ -141,7 +140,7 @@ m_PackageAssets:
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -173,13 +172,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637684996900000000
+      datePublishedTicks: 637750142350000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: f2df77302616ee97ac0bda980859324394e44df3
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
@@ -257,13 +256,13 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@4.1.1
+    - packageId: com.unity.2d.psdimporter@4.1.3
       testable: 0
       isDirectDependency: 1
-      version: 4.1.1
+      version: 4.1.3
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.2d.psdimporter@4.1.1
+        Match 3\Library\PackageCache\com.unity.2d.psdimporter@4.1.3
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -333,20 +332,19 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         compatible:
-        - 4.1.1
-        - 4.1.2
         - 4.1.3
+        - 4.2.0
         verified: 4.1.3
       dependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.animation
-        version: 5.0.8
+        version: 5.0.10
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -360,7 +358,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.8
+        version: 5.0.10
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -381,13 +379,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637684996970000000
+      datePublishedTicks: 637750142410000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: f2df77302616ee97ac0bda980859324394e44df3
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
@@ -441,13 +439,13 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.5
+    - packageId: com.unity.2d.spriteshape@5.1.7
       testable: 0
       isDirectDependency: 1
-      version: 5.1.5
+      version: 5.1.7
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.2d.spriteshape@5.1.5
+        Match 3\Library\PackageCache\com.unity.2d.spriteshape@5.1.7
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -532,15 +530,14 @@ m_PackageAssets:
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         compatible:
-        - 5.1.5
-        - 5.1.6
         - 5.1.7
+        - 5.2.0
         verified: 5.1.7
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.path
         version: 4.0.2
       - name: com.unity.modules.physics2d
@@ -549,7 +546,7 @@ m_PackageAssets:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -585,13 +582,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637684997050000000
+      datePublishedTicks: 637750142490000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: f2df77302616ee97ac0bda980859324394e44df3
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
@@ -644,13 +641,13 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.13.5
+    - packageId: com.unity.collab-proxy@1.15.7
       testable: 0
       isDirectDependency: 1
-      version: 1.13.5
+      version: 1.15.7
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.collab-proxy@1.13.5
+        Match 3\Library\PackageCache\com.unity.collab-proxy@1.15.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -714,13 +711,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.13.5
-        - 1.14.1
-        - 1.14.4
-        - 1.14.7
-        - 1.14.9
-        - 1.15.1
-        - 1.15.4
         - 1.15.7
         - 1.15.9
         - 2.0.0-preview.6
@@ -733,7 +723,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.13.5
+        verified: 1.15.9
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -772,13 +762,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637685076530000000
+      datePublishedTicks: 637744672890000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 4001806dc89b25276d1382d5abffd71731b030e5
+        revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -892,13 +882,13 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.11
+    - packageId: com.unity.ide.visualstudio@2.0.12
       testable: 0
       isDirectDependency: 1
-      version: 2.0.11
+      version: 2.0.12
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+        Match 3\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -976,13 +966,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637613656180000000
+      datePublishedTicks: 637720564750000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        revision: 8d436ff053b9c59677b5e9799208143553cd02d9
         path: 
     - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
@@ -3503,10 +3493,12 @@ m_PackageAssets:
         all:
         - 1.1.0
         - 1.2.1
+        - 1.2.5
         compatible:
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3531,13 +3523,13 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/Unity.Mathematics.git
         revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
-    - packageId: com.unity.2d.common@4.0.3
+    - packageId: com.unity.2d.common@4.0.4
       testable: 0
       isDirectDependency: 0
-      version: 4.0.3
+      version: 4.0.4
       source: 1
       resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
-        Match 3\Library\PackageCache\com.unity.2d.common@4.0.3
+        Match 3\Library\PackageCache\com.unity.2d.common@4.0.4
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3553,10 +3545,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 4.0.3
+        - 4.0.4
         compatible:
-        - 4.0.3
-        verified: 4.0.3
+        - 4.0.4
+        verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3595,7 +3587,7 @@ m_PackageAssets:
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: c97def465b1932276762fc13f4cfee58da99d5e9
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.path@4.0.2
       testable: 0
@@ -3652,4 +3644,4 @@ m_PackageAssets:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match
   3/Packages
-m_EditorVersion: 2020.3.21f1 (a38c86f6690f)
+m_EditorVersion: 2020.3.27f1 (e759542391ea)

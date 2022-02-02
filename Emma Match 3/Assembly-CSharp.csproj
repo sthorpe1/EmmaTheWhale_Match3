@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\KilledPiece.cs" />
      <Compile Include="Assets\Scripts\Point.cs" />
      <Compile Include="Assets\Scripts\Match3.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
