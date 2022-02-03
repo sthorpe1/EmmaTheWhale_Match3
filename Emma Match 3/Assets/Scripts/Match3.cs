@@ -5,6 +5,7 @@ using UnityEngine;
 public class Match3 : MonoBehaviour
 {
     public ArrayLayout boardLayout;
+    ScoreManager scoreManager;
 
     [Header("UI Elements")]
     public Sprite[] pieces;
@@ -65,6 +66,9 @@ public class Match3 : MonoBehaviour
             {
                 foreach(Point pnt in connected) // remove node pieces connected
                 {
+                    //Addes points for each piece the user removes from the board
+                    scoreManager.Score+=10;
+
                     //KillPiece(pnt);
                     Node node = getNodeAtPoint(pnt);
                     NodePiece nodePiece = node.getPiece();
@@ -183,6 +187,10 @@ public class Match3 : MonoBehaviour
         InitializeBoard();
         VerifyBoard();
         InstantiateBoard();
+
+        scoreManager = FindObjectOfType<ScoreManager> ();
+        scoreManager.Score = PlayerPrefs.GetInt ("Score", 0);
+        scoreManager.Score = 0;
     }
 
     void InitializeBoard()
