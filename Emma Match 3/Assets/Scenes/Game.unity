@@ -1052,11 +1052,11 @@ MonoBehaviour:
     - row: 000000000000000000
     - row: 000000000000000000
   pieces:
-  - {fileID: 21300000, guid: 314a5258a06f08d42beaf66c4ab77a71, type: 3}
-  - {fileID: 21300000, guid: 09c0067c534304045bc63a5622b29b9d, type: 3}
-  - {fileID: 21300000, guid: ada2c78d8a7fd9a4f992c9e84fdfe8e4, type: 3}
-  - {fileID: 21300000, guid: ae156201b342fe7428ae4b91ba7f18a5, type: 3}
-  - {fileID: 21300000, guid: 5eabcc7162b3cfb4895b5974e27d1c7b, type: 3}
+  - {fileID: 21300000, guid: 57906b495a7bf53468f83e1fec8188a9, type: 3}
+  - {fileID: 21300000, guid: 0fba358e547267549af6843025124bd9, type: 3}
+  - {fileID: 21300000, guid: beed156a301205a47b3284640369d914, type: 3}
+  - {fileID: 21300000, guid: 4693a46832bf82143961b32c95235706, type: 3}
+  - {fileID: 21300000, guid: eb0a037a6a017dd47a3bfa9ac7980806, type: 3}
   gameBoard: {fileID: 1258854797}
   nodePiece: {fileID: 5041285319813477180, guid: 6b8d183d2a01e8547aba3aa6119324a7, type: 3}
 --- !u!114 &1907339364
