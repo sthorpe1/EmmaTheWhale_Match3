@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6826619405141409476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6826619405141409338}
+  - component: {fileID: 6826619405141409339}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6826619405141409338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826619405141409476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6826619405141409339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826619405141409476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04c505814c78884b881d84fa4fc4fe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  qna:
+  - question: When do most coral polyps seem to feed most actively?
+    answer:
+    - At night.
+    - At 12 o'clock.
+    - Any time during the day.
+    - They don't feed.
+    correctAnswer: 1
+  - question: Why is black coral valuable to humans?
+    answer:
+    - It contains an antioxidant that is sold in many parts of Asia.
+    - It is edible.
+    - It can be used as a paint.
+    - It can be cut and polished and made into jewellery.
+    correctAnswer: 4
+  - question: How many rows of teeth does a Whale shark have?
+    answer:
+    - About 400
+    - About 100
+    - About 60
+    - About 1000
+    correctAnswer: 1
+  - question: Up to how long can a Whale shark grow?
+    answer:
+    - 30 metres
+    - 4 metres
+    - 12 metres
+    - 50 metres
+    correctAnswer: 3
+  - question: Sea sponges are animals.
+    answer:
+    - True
+    - False
+    - Don't know!
+    - T_T
+    correctAnswer: 1
+  - question: Around how many species of sea sponge have been recorded by scientists?
+    answer:
+    - Around 1000
+    - Around 8000
+    - Around 100
+    - 'Around 25000 '
+    correctAnswer: 2
+  - question: What is the sea cucumber's ultimate defence against predators?
+    answer:
+    - It can camouflage itself well.
+    - It can swim away and hide.
+    - It can expel its intestines at them.
+    - It can secrete a neurotoxin.
+    correctAnswer: 3
+  - question: How many limbs does a crab have?
+    answer:
+    - 6
+    - 10
+    - 4
+    - 16
+    correctAnswer: 2
+  - question: Cone shells have caused human deaths.
+    answer:
+    - True
+    - False
+    - Don't know!
+    - T_T
+    correctAnswer: 1
+  - question: Feather stars are commonly found with between five and two hundred
+      arms.
+    answer:
+    - True
+    - False
+    - Don't know!
+    - T_T
+    correctAnswer: 1
+  option:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  quizPanel: {fileID: 0}
+  activationButton: {fileID: 0}
+  quizScorePanel: {fileID: 0}
+  questionText: {fileID: 0}
+  scoreText: {fileID: 0}
+  score: 0

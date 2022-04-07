@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour
     //Game Over and Game Active object references are created here
     public GameObject gameOverMenu;
     public GameObject gameActiveMenu;
+    public GameObject quizPanel;
     // object reference for game scores and score manager script
     [SerializeField] Text TextScore;
     [SerializeField] Text FinalScore;
@@ -29,6 +30,12 @@ public class Timer : MonoBehaviour
     {
         if (timerRunning)
         {
+            // if displayed timer hits 30 seconds then activate script
+            if (timeRemaining.ToString("F0") == "30") 
+            {
+                quizPanel.SetActive(true);
+            }
+            
             if (timeRemaining > 0)
             {
                 timeRemaining -= 1.0f * Time.deltaTime;
