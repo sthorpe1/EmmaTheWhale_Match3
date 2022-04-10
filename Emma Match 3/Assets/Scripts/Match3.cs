@@ -66,7 +66,7 @@ public class Match3 : MonoBehaviour
             {
                 foreach(Point pnt in connected) // remove node pieces connected
                 {
-                    //Addes points for each piece the user removes from the board
+                    //Adds points for each piece the user removes from the board
                     scoreManager.Score+=10;
 
                     //KillPiece(pnt);

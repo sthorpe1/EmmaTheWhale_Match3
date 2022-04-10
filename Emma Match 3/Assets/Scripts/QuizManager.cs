@@ -31,13 +31,13 @@ public class QuizManager : MonoBehaviour
     {
         quizScorePanel.SetActive(false);
 
-        if (score == 5)
+        if (score == 3)
         {
-            activationButton.transform.GetChild(0).GetComponent<Text>().text = "Congratulation! You have answered all questions correctly. Tap to activate Emma's special powerrrrr";
+            activationButton.transform.GetChild(0).GetComponent<Text>().text = "3/3 Correct Congratulations! Tap to activate Emma's special power";
         }
         else
         {
-            activationButton.transform.GetChild(0).GetComponent<Text>().text = "You have answered " + score + "out of 5 question correctly. Tap to continue the main game.";
+            activationButton.transform.GetChild(0).GetComponent<Text>().text = score + " out of 3 answered correctly. Tap to continue!";
         }
 
         activationButton.SetActive(true);
@@ -47,13 +47,13 @@ public class QuizManager : MonoBehaviour
     {
         score++;
 
-        scoreText.text = "Correct Answers: " + score + "/5";
+        scoreText.text = "Correct Answers: " + score + "/3";
 
         qna.RemoveAt(currentQuestion);
         
         answeredQuestion++;
 
-        if (answeredQuestion < 5)
+        if (answeredQuestion < 3)
         {
             GenerateQuestion();
         }
@@ -69,7 +69,7 @@ public class QuizManager : MonoBehaviour
 
         answeredQuestion++;
 
-        if (answeredQuestion < 5)
+        if (answeredQuestion < 3)
         {
             GenerateQuestion();
         }
