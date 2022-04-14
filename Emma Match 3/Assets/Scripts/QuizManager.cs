@@ -12,6 +12,8 @@ public class QuizManager : MonoBehaviour
     public GameObject quizPanel;
     public GameObject activationButton;
     public GameObject quizScorePanel;
+    public ScoreManager scoreManager;
+    public Timer timer;
 
     public Text questionText;
     public Text scoreText;
@@ -23,7 +25,6 @@ public class QuizManager : MonoBehaviour
     private void Start()
     {
         activationButton.SetActive(false);
-
         GenerateQuestion();
     }
 
@@ -34,13 +35,18 @@ public class QuizManager : MonoBehaviour
         if (score == 3)
         {
             activationButton.transform.GetChild(0).GetComponent<Text>().text = "3/3 Correct Congratulations! Tap to activate Emma's special power";
+            timer.timeRemaining += 30;
+            scoreManager.Score += scoreManager.Score;
         }
         else
         {
             activationButton.transform.GetChild(0).GetComponent<Text>().text = score + " out of 3 answered correctly. Tap to continue!";
         }
-
+        
         activationButton.SetActive(true);
+        answeredQuestion = 0;
+        score = 0;
+        scoreText.text = "Correct Answers: " + score + "/3";
     }
 
     public void Correct()

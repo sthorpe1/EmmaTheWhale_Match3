@@ -1,4 +1,6 @@
 {"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteResponseFile artifacts/rsp/7680689646174169064.rsp","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp D:/EmmaTheWhale_Match3/Emma Match 3/Library/Il2cppBuildCache/WebGL/Native/build.bc","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteResponseFile artifacts/rsp/1886390205831488987.rsp","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match 3/Library/Il2cppBuildCache/WebGL/Native/build.bc","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"inputSignatureChanged","annotation":"Il2Cpp C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match 3/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"changes":[{"key":"InputFileDigest","path":"C:\\Users\\sthor\\Documents\\GitHub\\ShoreBuddies_EmmaTheWhale\\Emma Match 3\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll","dependency":"explicit"}]}
+{"msg":"noderesult","annotation":"Il2Cpp C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match 3/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"exitcode":0}

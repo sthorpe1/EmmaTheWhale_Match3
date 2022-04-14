@@ -8,12 +8,16 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] Text TimeLabelUI;
     public float timeRemaining = 60;
+    public float quizTimeRemaining = 40;
     //public float timeDisplay = timeRemaining;
     public bool timerRunning = false;
+
     //Game Over and Game Active object references are created here
     public GameObject gameOverMenu;
     public GameObject gameActiveMenu;
     public GameObject quizPanel;
+    public Pausing pausing;
+
     // object reference for game scores and score manager script
     [SerializeField] Text TextScore;
     [SerializeField] Text FinalScore;
@@ -31,14 +35,17 @@ public class Timer : MonoBehaviour
         if (timerRunning)
         {
             // if displayed timer hits 30 seconds then activate script
-            if (timeRemaining.ToString("F0") == "30") 
+            if (quizTimeRemaining.ToString("F0") == "0")
             {
+                pausing.pauseGame();
                 quizPanel.SetActive(true);
+                quizTimeRemaining = 40;
             }
-            
+
             if (timeRemaining > 0)
             {
                 timeRemaining -= 1.0f * Time.deltaTime;
+                quizTimeRemaining -= 1.0f * Time.deltaTime;
                 //timeDisplay = timeRemaining;
             }
             else
@@ -51,6 +58,7 @@ public class Timer : MonoBehaviour
             }
         }
         TimeLabelUI.text = timeRemaining.ToString("F0");
+
     }
 
     public void ResetTime()
