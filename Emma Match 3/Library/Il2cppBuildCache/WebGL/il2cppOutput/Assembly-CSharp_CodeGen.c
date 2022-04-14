@@ -62,153 +62,155 @@ extern void Match3_InstantiateBoard_mDDF1BF6BB734D20D88914F055CC3A1D2F7E2756D (v
 extern void Match3_ResetPiece_mF97D173780B4F33A80D3E7E6E2E347090B45922F (void);
 // 0x00000019 System.Void Match3::FlipPieces(Point,Point,System.Boolean)
 extern void Match3_FlipPieces_mFA04F415415B132F7875EEFF58B448063E4D7088 (void);
-// 0x0000001A System.Collections.Generic.List`1<Point> Match3::isConnected(Point,System.Boolean)
+// 0x0000001A System.Void Match3::KillPiece(Point)
+extern void Match3_KillPiece_mBCD260A65BCF2C13AD8EC7327B53D51C0FEAE909 (void);
+// 0x0000001B System.Collections.Generic.List`1<Point> Match3::isConnected(Point,System.Boolean)
 extern void Match3_isConnected_m85FD345D8B0B14F74964D95FD781A040539FC227 (void);
-// 0x0000001B System.Void Match3::AddPoints(System.Collections.Generic.List`1<Point>&,System.Collections.Generic.List`1<Point>)
+// 0x0000001C System.Void Match3::AddPoints(System.Collections.Generic.List`1<Point>&,System.Collections.Generic.List`1<Point>)
 extern void Match3_AddPoints_m727865BF9D21AA5EC8A5BEF3CB457B4D20058121 (void);
-// 0x0000001C System.Int32 Match3::fillPiece()
+// 0x0000001D System.Int32 Match3::fillPiece()
 extern void Match3_fillPiece_m2099491433F04072016417DE99C5BED7F49962E6 (void);
-// 0x0000001D System.Int32 Match3::getValueAtPoint(Point)
+// 0x0000001E System.Int32 Match3::getValueAtPoint(Point)
 extern void Match3_getValueAtPoint_m98571FB48BF20FDABB37C68622265555494BCBA3 (void);
-// 0x0000001E System.Void Match3::setValueAtPoint(Point,System.Int32)
+// 0x0000001F System.Void Match3::setValueAtPoint(Point,System.Int32)
 extern void Match3_setValueAtPoint_m9FFDAD0F81DB45C9E05C1E4AE0571727EED7CB4A (void);
-// 0x0000001F Node Match3::getNodeAtPoint(Point)
+// 0x00000020 Node Match3::getNodeAtPoint(Point)
 extern void Match3_getNodeAtPoint_m5C788A682A36ABDDB2A2E2BA8500898286627B5F (void);
-// 0x00000020 System.Int32 Match3::newValue(System.Collections.Generic.List`1<System.Int32>&)
+// 0x00000021 System.Int32 Match3::newValue(System.Collections.Generic.List`1<System.Int32>&)
 extern void Match3_newValue_m16F9E6FA7D6EB8808F5AF5A1A6FB21252A5EC577 (void);
-// 0x00000021 System.String Match3::getRandomSeed()
+// 0x00000022 System.String Match3::getRandomSeed()
 extern void Match3_getRandomSeed_m5431D2E885FE4A0B5719355D4DE7E1893671DD9F (void);
-// 0x00000022 UnityEngine.Vector2 Match3::getPositionFromPoint(Point)
+// 0x00000023 UnityEngine.Vector2 Match3::getPositionFromPoint(Point)
 extern void Match3_getPositionFromPoint_mCEDF0D6F128E62A827F6DFBCC3CC8D075A264BD9 (void);
-// 0x00000023 System.Void Match3::.ctor()
+// 0x00000024 System.Void Match3::.ctor()
 extern void Match3__ctor_m1B63BB4C9328840DFF75F2B20EE85C8428EAA5F2 (void);
-// 0x00000024 System.Void Node::.ctor(System.Int32,Point)
+// 0x00000025 System.Void Node::.ctor(System.Int32,Point)
 extern void Node__ctor_mEA612FD366862326437830360A3B49B6788ECC07 (void);
-// 0x00000025 System.Void Node::SetPiece(NodePiece)
+// 0x00000026 System.Void Node::SetPiece(NodePiece)
 extern void Node_SetPiece_m3AF8E057E1B24B8CD8A05E9ED300BB515DFC0091 (void);
-// 0x00000026 NodePiece Node::getPiece()
+// 0x00000027 NodePiece Node::getPiece()
 extern void Node_getPiece_mBC358D864F818F231309EA0E1768A7452C10D752 (void);
-// 0x00000027 System.Void FlippedPieces::.ctor(NodePiece,NodePiece)
+// 0x00000028 System.Void FlippedPieces::.ctor(NodePiece,NodePiece)
 extern void FlippedPieces__ctor_m60F9EB7BFA88E9A021FF61B47ED89709D99DCB1C (void);
-// 0x00000028 NodePiece FlippedPieces::getOtherPiece(NodePiece)
+// 0x00000029 NodePiece FlippedPieces::getOtherPiece(NodePiece)
 extern void FlippedPieces_getOtherPiece_mA3006024E52147F69372588F162FD0B1895B9C89 (void);
-// 0x00000029 System.Void MouseTracker::Start()
+// 0x0000002A System.Void MouseTracker::Start()
 extern void MouseTracker_Start_m8E1513D3D02F19DAFD4C1B31B3C2DD349002C462 (void);
-// 0x0000002A System.Void MouseTracker::Update()
+// 0x0000002B System.Void MouseTracker::Update()
 extern void MouseTracker_Update_mFA02623116D9CA0D3A0166B993CA4FA07F559B29 (void);
-// 0x0000002B System.Void MouseTracker::.ctor()
+// 0x0000002C System.Void MouseTracker::.ctor()
 extern void MouseTracker__ctor_mEBBB5CE792C87224294EE981C3AD932E61A7C5E8 (void);
-// 0x0000002C System.Void MovePieces::Awake()
+// 0x0000002D System.Void MovePieces::Awake()
 extern void MovePieces_Awake_m9CE2A6069E7DBDD4A6E246FB16B78657180426B2 (void);
-// 0x0000002D System.Void MovePieces::Start()
+// 0x0000002E System.Void MovePieces::Start()
 extern void MovePieces_Start_mFAFFBEFB671AABD494989D2A3D9C0E5BD3CF6AA7 (void);
-// 0x0000002E System.Void MovePieces::Update()
+// 0x0000002F System.Void MovePieces::Update()
 extern void MovePieces_Update_mC35E29D79D15DBBCA91B4014898F50A548C4C8F0 (void);
-// 0x0000002F System.Void MovePieces::MovePiece(NodePiece)
+// 0x00000030 System.Void MovePieces::MovePiece(NodePiece)
 extern void MovePieces_MovePiece_mE10D746BE09964368DF0F679DA910A128353A7B0 (void);
-// 0x00000030 System.Void MovePieces::DropPiece()
+// 0x00000031 System.Void MovePieces::DropPiece()
 extern void MovePieces_DropPiece_mE13EA441ECF8511102EFE852E267D8F54CD13FD5 (void);
-// 0x00000031 System.Void MovePieces::.ctor()
+// 0x00000032 System.Void MovePieces::.ctor()
 extern void MovePieces__ctor_m729E7E9D1649C2443549FA3185729E28B938DBB3 (void);
-// 0x00000032 System.Void NodePiece::Initialize(System.Int32,Point,UnityEngine.Sprite)
+// 0x00000033 System.Void NodePiece::Initialize(System.Int32,Point,UnityEngine.Sprite)
 extern void NodePiece_Initialize_m77C6E362D5C53475C17254BFB53F9EEC28E48870 (void);
-// 0x00000033 System.Void NodePiece::SetIndex(Point)
+// 0x00000034 System.Void NodePiece::SetIndex(Point)
 extern void NodePiece_SetIndex_mBF8CA3397CDC229D3FB3334A542EAAF6359231F6 (void);
-// 0x00000034 System.Void NodePiece::ResetPosition()
+// 0x00000035 System.Void NodePiece::ResetPosition()
 extern void NodePiece_ResetPosition_mF13D369ED064809DFCE47B3D470066212354720A (void);
-// 0x00000035 System.Void NodePiece::MovePosition(UnityEngine.Vector2)
+// 0x00000036 System.Void NodePiece::MovePosition(UnityEngine.Vector2)
 extern void NodePiece_MovePosition_mF4FA21DCB8EC72D0F948E851FAA4A0BD2695FF74 (void);
-// 0x00000036 System.Void NodePiece::MovePositionTo(UnityEngine.Vector2)
+// 0x00000037 System.Void NodePiece::MovePositionTo(UnityEngine.Vector2)
 extern void NodePiece_MovePositionTo_m567275E1BB4DB44DA3686EC32F9EB417CE0DC686 (void);
-// 0x00000037 System.Boolean NodePiece::UpdatePiece()
+// 0x00000038 System.Boolean NodePiece::UpdatePiece()
 extern void NodePiece_UpdatePiece_m6F5E3DAE90A009FD24B72319472D606DA5C8F2BC (void);
-// 0x00000038 System.Void NodePiece::UpdateName()
+// 0x00000039 System.Void NodePiece::UpdateName()
 extern void NodePiece_UpdateName_m60A0143E9F2B20D51B26C5D4440ED46D677B126F (void);
-// 0x00000039 System.Void NodePiece::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+// 0x0000003A System.Void NodePiece::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 extern void NodePiece_OnPointerDown_m663B2BB2BCF70C0085C27FBF4E2D89C6A3CA46C1 (void);
-// 0x0000003A System.Void NodePiece::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+// 0x0000003B System.Void NodePiece::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 extern void NodePiece_OnPointerUp_mD66F4CC0715A58B7B6353DE91A02F3F8C813A471 (void);
-// 0x0000003B System.Void NodePiece::.ctor()
+// 0x0000003C System.Void NodePiece::.ctor()
 extern void NodePiece__ctor_m82EF91A65B9CD052B71AAB547457539126FEEB5A (void);
-// 0x0000003C System.Void Pausing::pauseGame()
+// 0x0000003D System.Void Pausing::pauseGame()
 extern void Pausing_pauseGame_mDF2BBB70273AF914602B6FE597AFA07F680B29EA (void);
-// 0x0000003D System.Void Pausing::resumeGame()
+// 0x0000003E System.Void Pausing::resumeGame()
 extern void Pausing_resumeGame_m966E900A9EC1DBD39DE4D8E0DAA6048C30EA97FA (void);
-// 0x0000003E System.Void Pausing::Start()
+// 0x0000003F System.Void Pausing::Start()
 extern void Pausing_Start_mAE9B1CC15604F199EDFB529A5E3076C46A0A8A2E (void);
-// 0x0000003F System.Void Pausing::Update()
+// 0x00000040 System.Void Pausing::Update()
 extern void Pausing_Update_mF9F2505A9F9E498C8C65F020767B123FC75F5F46 (void);
-// 0x00000040 System.Void Pausing::.ctor()
+// 0x00000041 System.Void Pausing::.ctor()
 extern void Pausing__ctor_m2E58CE075F99266CC1955C7AA6D490E4C1D1902E (void);
-// 0x00000041 System.Void Point::.ctor(System.Int32,System.Int32)
+// 0x00000042 System.Void Point::.ctor(System.Int32,System.Int32)
 extern void Point__ctor_mFE9CC1CEB65E7D8D1252BD4DF35899F1F2336FC7 (void);
-// 0x00000042 System.Void Point::mult(System.Int32)
+// 0x00000043 System.Void Point::mult(System.Int32)
 extern void Point_mult_m253C25500BAEF833005C09B1D2CD2190B2DFDA6A (void);
-// 0x00000043 System.Void Point::add(Point)
+// 0x00000044 System.Void Point::add(Point)
 extern void Point_add_mD76F8258FE0364E5EE2087B5E783F53BF06425BC (void);
-// 0x00000044 UnityEngine.Vector2 Point::ToVector()
+// 0x00000045 UnityEngine.Vector2 Point::ToVector()
 extern void Point_ToVector_m20E3EB5C6E141984E667913100C86F9721BAAABB (void);
-// 0x00000045 System.Boolean Point::Equals(Point)
+// 0x00000046 System.Boolean Point::Equals(Point)
 extern void Point_Equals_mA46526C0991295BBA45EA8C20419CAE9D49A3E1A (void);
-// 0x00000046 Point Point::fromVector(UnityEngine.Vector2)
+// 0x00000047 Point Point::fromVector(UnityEngine.Vector2)
 extern void Point_fromVector_m9112B1FA25BE0318BF028989630CF592A0F1054A (void);
-// 0x00000047 Point Point::fromVector(UnityEngine.Vector3)
+// 0x00000048 Point Point::fromVector(UnityEngine.Vector3)
 extern void Point_fromVector_m8D90668D4A5A5C7D458AE98321AB7E9FDF483D45 (void);
-// 0x00000048 Point Point::mult(Point,System.Int32)
+// 0x00000049 Point Point::mult(Point,System.Int32)
 extern void Point_mult_mAD744E0D62A9A54F0A46FFFA64011C4ABDDE2D3B (void);
-// 0x00000049 Point Point::add(Point,Point)
+// 0x0000004A Point Point::add(Point,Point)
 extern void Point_add_mD3586207981D50B2D8951E7948944ED5559AB155 (void);
-// 0x0000004A Point Point::clone(Point)
+// 0x0000004B Point Point::clone(Point)
 extern void Point_clone_m7DEDD6B446980B93151FBF5A46100FC13C8C1F4B (void);
-// 0x0000004B Point Point::get_zero()
+// 0x0000004C Point Point::get_zero()
 extern void Point_get_zero_m0F0A4F0E0772FF857408D21424B38E5C084DB9FE (void);
-// 0x0000004C Point Point::get_one()
+// 0x0000004D Point Point::get_one()
 extern void Point_get_one_mC35635DBE96EAABB3D42F6C8523F5918D7465FF0 (void);
-// 0x0000004D Point Point::get_up()
+// 0x0000004E Point Point::get_up()
 extern void Point_get_up_mAD4FD2B6CD9CD5B487A7FE19EF51188FAD3E9496 (void);
-// 0x0000004E Point Point::get_down()
+// 0x0000004F Point Point::get_down()
 extern void Point_get_down_m760C2FF5EFA02D936C939F9537EC3DEDF88C3B17 (void);
-// 0x0000004F Point Point::get_right()
+// 0x00000050 Point Point::get_right()
 extern void Point_get_right_mB42EF5AE23F568907E534A2D798E06B70E4195BF (void);
-// 0x00000050 Point Point::get_left()
+// 0x00000051 Point Point::get_left()
 extern void Point_get_left_mF30134CA4F7005B9D3939FE0A467DE2B3C7B48FE (void);
-// 0x00000051 System.Void QuestionAndAnswer::.ctor()
+// 0x00000052 System.Void QuestionAndAnswer::.ctor()
 extern void QuestionAndAnswer__ctor_m7797DCB13F78D08539C62B866911909888D9DBCF (void);
-// 0x00000052 System.Void QuizManager::Start()
+// 0x00000053 System.Void QuizManager::Start()
 extern void QuizManager_Start_mC65255D0EDEC29EEDB0815F7CEF3E16BD72448D4 (void);
-// 0x00000053 System.Void QuizManager::QuizOver()
+// 0x00000054 System.Void QuizManager::QuizOver()
 extern void QuizManager_QuizOver_mBA93171FFC59BDC9F1F58B08240E3199B8447077 (void);
-// 0x00000054 System.Void QuizManager::Correct()
+// 0x00000055 System.Void QuizManager::Correct()
 extern void QuizManager_Correct_m82D6E405D30CBDBA195C391D307BFF0DC37642AF (void);
-// 0x00000055 System.Void QuizManager::Incorrect()
+// 0x00000056 System.Void QuizManager::Incorrect()
 extern void QuizManager_Incorrect_m09C67436C9C2CFFEBE5778E4D7B3835FCDF8B837 (void);
-// 0x00000056 System.Void QuizManager::SetAnswer()
+// 0x00000057 System.Void QuizManager::SetAnswer()
 extern void QuizManager_SetAnswer_m9004F97004BBFCAE265DEDC5BCA629AEFAD63B10 (void);
-// 0x00000057 System.Void QuizManager::GenerateQuestion()
+// 0x00000058 System.Void QuizManager::GenerateQuestion()
 extern void QuizManager_GenerateQuestion_m682455D0862EC0ED4FBFC161DCA58583CA328D6D (void);
-// 0x00000058 System.Void QuizManager::.ctor()
+// 0x00000059 System.Void QuizManager::.ctor()
 extern void QuizManager__ctor_m6F2137A4B5FDC42B809F3E546A987CB591DD101A (void);
-// 0x00000059 System.Int32 ScoreManager::get_Score()
+// 0x0000005A System.Int32 ScoreManager::get_Score()
 extern void ScoreManager_get_Score_m7358FE83F8A175EC387B7647264C9645526769D3 (void);
-// 0x0000005A System.Void ScoreManager::set_Score(System.Int32)
+// 0x0000005B System.Void ScoreManager::set_Score(System.Int32)
 extern void ScoreManager_set_Score_mBA2C094FE2271625BD7FC0E35379758317471BC3 (void);
-// 0x0000005B System.Void ScoreManager::.ctor()
+// 0x0000005C System.Void ScoreManager::.ctor()
 extern void ScoreManager__ctor_m638A240D34643E8AB9D17553622C1C9354348354 (void);
-// 0x0000005C System.Void SetVolume::Start()
+// 0x0000005D System.Void SetVolume::Start()
 extern void SetVolume_Start_mBD9C18EB2482C1E486FFB7010C9A8EC29C64CC45 (void);
-// 0x0000005D System.Void SetVolume::SetLevel(System.Single)
+// 0x0000005E System.Void SetVolume::SetLevel(System.Single)
 extern void SetVolume_SetLevel_m869F38D5E4FF97C960EA9226994E07D66FF957D4 (void);
-// 0x0000005E System.Void SetVolume::.ctor()
+// 0x0000005F System.Void SetVolume::.ctor()
 extern void SetVolume__ctor_mB4CC4AF2BFDC3174E82BE6AB70997789F3C9E8B8 (void);
-// 0x0000005F System.Void Timer::Start()
+// 0x00000060 System.Void Timer::Start()
 extern void Timer_Start_mF356578A412E0D4BE318BC567718C7DBD90E05F0 (void);
-// 0x00000060 System.Void Timer::Update()
+// 0x00000061 System.Void Timer::Update()
 extern void Timer_Update_m336594DF06E073C9CC317142E46E02AFC94A026C (void);
-// 0x00000061 System.Void Timer::ResetTime()
+// 0x00000062 System.Void Timer::ResetTime()
 extern void Timer_ResetTime_m17A481D9DA1A565E5535C19199ECFC52D7640C54 (void);
-// 0x00000062 System.Void Timer::.ctor()
+// 0x00000063 System.Void Timer::.ctor()
 extern void Timer__ctor_m74709038BC88FE71F7D6C06D0FF352FBE17410E8 (void);
-static Il2CppMethodPointer s_methodPointers[98] = 
+static Il2CppMethodPointer s_methodPointers[99] = 
 {
 	Answers_Answer_mD6AF82894509059A812CAD8889764F292773B690,
 	Answers__ctor_mA0FEABC20C91850BF7BFECA11305FBFE76DA0CE4,
@@ -235,6 +237,7 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	Match3_InstantiateBoard_mDDF1BF6BB734D20D88914F055CC3A1D2F7E2756D,
 	Match3_ResetPiece_mF97D173780B4F33A80D3E7E6E2E347090B45922F,
 	Match3_FlipPieces_mFA04F415415B132F7875EEFF58B448063E4D7088,
+	Match3_KillPiece_mBCD260A65BCF2C13AD8EC7327B53D51C0FEAE909,
 	Match3_isConnected_m85FD345D8B0B14F74964D95FD781A040539FC227,
 	Match3_AddPoints_m727865BF9D21AA5EC8A5BEF3CB457B4D20058121,
 	Match3_fillPiece_m2099491433F04072016417DE99C5BED7F49962E6,
@@ -309,7 +312,7 @@ static Il2CppMethodPointer s_methodPointers[98] =
 	Timer_ResetTime_m17A481D9DA1A565E5535C19199ECFC52D7640C54,
 	Timer__ctor_m74709038BC88FE71F7D6C06D0FF352FBE17410E8,
 };
-static const int32_t s_InvokerIndices[98] = 
+static const int32_t s_InvokerIndices[99] = 
 {
 	1551,
 	1551,
@@ -336,6 +339,7 @@ static const int32_t s_InvokerIndices[98] =
 	1551,
 	1297,
 	487,
+	1297,
 	619,
 	645,
 	1494,
@@ -415,7 +419,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	98,
+	99,
 	s_methodPointers,
 	0,
 	NULL,

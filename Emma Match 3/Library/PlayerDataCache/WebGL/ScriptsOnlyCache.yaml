@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Answers
     - BobbingAnimation
     - CrossSceneAudio
+    - KilledPiece
     - MainMenu
     - Match3
     - MouseTracker
@@ -70,49 +71,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1752}
+      Script: {instanceID: 1744}
     - Class: 114
-      Script: {instanceID: 1872}
+      Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 2002}
+      Script: {instanceID: 1994}
     - Class: 114
-      Script: {instanceID: 2290}
+      Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 2512}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2866}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3136}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3528}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 3816}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 4512}
+      Script: {instanceID: 4236}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 4664}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5436}
     - Class: 114
-      Script: {instanceID: 17668}
+      Script: {instanceID: 5596}
+    - Class: 114
+      Script: {instanceID: 17706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -161,37 +164,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1752}
+      Script: {instanceID: 1744}
     - Class: 114
-      Script: {instanceID: 1872}
+      Script: {instanceID: 1864}
     - Class: 114
-      Script: {instanceID: 2282}
+      Script: {instanceID: 2274}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3136}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4236}
     - Class: 114
-      Script: {instanceID: 4920}
+      Script: {instanceID: 4912}
     - Class: 114
-      Script: {instanceID: 5318}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5840}
+      Script: {instanceID: 5832}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -661,7 +664,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
-      Hash: b6c6b496282f78c14cde69fb4e07ef8c
+      Hash: 4c730e2bc40e844615394e3ca9d110c3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Match3

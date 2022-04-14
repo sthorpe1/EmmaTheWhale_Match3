@@ -63,7 +63,6 @@ public class NodePiece : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             updating = false;
             return false;
         }
-        return true;
     }
 
     void UpdateName()

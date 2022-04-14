@@ -8,7 +8,7 @@ public class KilledPiece : MonoBehaviour
     public bool falling;
 
     float speed = 16f;
-    float gravity = 32f;
+    float gravity = -32f;
     Vector2 moveDir;
     RectTransform rect;
     Image img;
@@ -30,14 +30,11 @@ public class KilledPiece : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!falling)
-            return;
-
+        if (!falling) return;
         moveDir.y -= Time.deltaTime * gravity;
         moveDir.x = Mathf.Lerp(moveDir.x, 0, Time.deltaTime);
         rect.anchoredPosition += moveDir * Time.deltaTime * speed;
-
-        if (rect.position.x < -32f || rect.position.x > Screen.width + 32f || rect.position.y < -32f || rect.position.y > Screen.height + 32f)
+        if (rect.position.x < -64f || rect.position.x > Screen.width + 64f || rect.position.y < -64f || rect.position.y > Screen.height + 64f)
             falling = false;
     }
 }

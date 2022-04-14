@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5325,7 +5325,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4693a46832bf82143961b32c95235706, type: 3}
   - {fileID: 21300000, guid: eb0a037a6a017dd47a3bfa9ac7980806, type: 3}
   gameBoard: {fileID: 1258854797}
+  killedBoard: {fileID: 845422748}
   nodePiece: {fileID: 5041285319813477180, guid: 6b8d183d2a01e8547aba3aa6119324a7, type: 3}
+  killedPiece: {fileID: 8443480229651018351, guid: 46eea6cc18460384d8cee646863d42d3, type: 3}
 --- !u!114 &1907339364
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,16 +16,14 @@ public class MovePieces : MonoBehaviour
         instance = this;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         game = GetComponent<Match3>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (moving != null)
+        if(moving != null)
         {
             Vector2 dir = ((Vector2)Input.mousePosition - mouseStart);
             Vector2 nDir = dir.normalized;
@@ -33,11 +31,12 @@ public class MovePieces : MonoBehaviour
 
             newIndex = Point.clone(moving.index);
             Point add = Point.zero;
-            if(dir.magnitude > 32) // if mouse is 32 pixels away from starting point of mouse
+            if (dir.magnitude > 32) //If our mouse is 32 pixels away from the starting point of the mouse
             {
+                //make add either (1, 0) | (-1, 0) | (0, 1) | (0, -1) depending on the direction of the mouse point
                 if (aDir.x > aDir.y)
                     add = (new Point((nDir.x > 0) ? 1 : -1, 0));
-                else if (aDir.y > aDir.x)
+                else if(aDir.y > aDir.x)
                     add = (new Point(0, (nDir.y > 0) ? -1 : 1));
             }
             newIndex.add(add);
@@ -59,14 +58,11 @@ public class MovePieces : MonoBehaviour
     public void DropPiece()
     {
         if (moving == null) return;
-
-        // flip pieces around in game board
-        if (newIndex != moving.index)
+        Debug.Log("Dropped");
+        if (!newIndex.Equals(moving.index))
             game.FlipPieces(moving.index, newIndex, true);
-        // reset piece back
         else
             game.ResetPiece(moving);
         moving = null;
-
     }
 }
