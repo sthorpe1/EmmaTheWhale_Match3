@@ -15,10 +15,19 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637853308031463657
-    m_Hash: 17166110
+      ticks: 637862775165891701
+    m_Hash: 2059321066
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma Match 3/Packages/unity-sdk-main/package.json:
+      m_FilePath: C:/Users/sthor/Documents/GitHub/ShoreBuddies_EmmaTheWhale/Emma
+        Match 3/Packages/unity-sdk-main/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637862775069492272
+      m_Hash: 4129775540
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
@@ -87,6 +96,7 @@ m_PackageAssets:
         - 3.2.15
         - 3.2.16
         - 3.2.17
+        - 3.2.18
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -112,6 +122,7 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.1
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -126,6 +137,7 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
@@ -134,6 +146,7 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.1
         verified: 5.1.1
       dependencies:
       - name: com.unity.2d.common
@@ -842,6 +855,7 @@ m_PackageAssets:
         - 3.0.10
         - 3.0.12
         - 3.0.13
+        - 3.0.14
         compatible:
         - 1.0.2
         - 1.0.6
@@ -872,6 +886,7 @@ m_PackageAssets:
         - 3.0.10
         - 3.0.12
         - 3.0.13
+        - 3.0.14
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1128,10 +1143,12 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
         - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         verified: 1.1.31
@@ -3231,6 +3248,114 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.lootlocker.lootlockersdk@file:C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
+        Match 3\Packages\unity-sdk-main
+      testable: 1
+      isDirectDependency: 1
+      version: 1.1.14
+      source: 3
+      resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
+        Match 3\Packages\unity-sdk-main
+      assetPath: Packages/com.lootlocker.lootlockersdk
+      name: com.lootlocker.lootlockersdk
+      displayName: LootLocker
+      author:
+        name: LootLocker
+        email: 
+        url: 
+      category: 
+      type: tool
+      description: LootLocker SDK
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: C:\Users\sthor\Documents\GitHub\ShoreBuddies_EmmaTheWhale\Emma
+        Match 3\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: library
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.0.0
+        compatible:
+        - 2.0.0
+        verified: 2.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
     - packageId: com.unity.modules.subsystems@1.0.0
       testable: 0
