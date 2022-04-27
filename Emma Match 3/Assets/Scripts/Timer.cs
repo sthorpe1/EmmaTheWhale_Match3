@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     [SerializeField] Text TimeLabelUI;
+    [SerializeField] Text QuizLabelUI;
+    public GameObject QuizLabel;
     public float timeRemaining = 60;
     public float quizTimeRemaining = 40;
     //public float timeDisplay = timeRemaining;
@@ -42,6 +44,15 @@ public class Timer : MonoBehaviour
                 quizTimeRemaining = 40;
             }
 
+            if (quizTimeRemaining <= 5.9)
+            {
+                QuizLabel.SetActive(true);
+            }
+            else
+            {
+                QuizLabel.SetActive(false);
+            }
+
             if (timeRemaining > 0)
             {
                 timeRemaining -= 1.0f * Time.deltaTime;
@@ -58,6 +69,7 @@ public class Timer : MonoBehaviour
             }
         }
         TimeLabelUI.text = timeRemaining.ToString("F0");
+        QuizLabelUI.text = quizTimeRemaining.ToString("F0");
 
     }
 
